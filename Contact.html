@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+    content="Hi, everybody. I'm Dmitry and I'm a software engineer. This is my Lab 8.">
+    <title>Pimushkin Dmitry</title>
+    <link rel="stylesheet" href="css/Contact_style.css">
+
+</head>
+
+<body id="page-top">
+    <nav class="navbar" >
+        <!-- контейнер -->
+        <a class="logo" href="#page-top">
+            <img src="Images/nav_Logo.svg">
+        </a>
+        <div class="nav_elements">
+            
+            <!-- кнопка навигации для мобильного режима -->
+            <!-- <button></button> -->
+            <div class="nav_items">
+                <!-- создаём список... -->
+                <ul class="ul_nav Maintxt" style="font-size: 24px; font-weight: 550; letter-spacing:1px; font-family: Arial, Helvetica, sans-serif;">
+                    <!-- неупорядоченный -->
+                    <dt role="presentation"><a href="Home.html"><img src="Images/cart.svg"></a></dt>
+                    <dt role="presentation"><a href="Home.html">Home</a></dt>
+                    <dt role="presentation"><a href="Shop.html" >Shop</a></dt>
+                    <dt role="presentation"><a href="Contact.html">Contact</a></dt>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <!-- контейнер, который будет захватывать навигацию -->
+        <div class="intro">
+            <!-- содержимое стартовой страницы -->
+
+        </div>
+        
+    </header>
+    <main> 
+             <div class="contactForm">
+                <form  id="contactForm" name="contactForm">
+                    <!-- строка -->
+                    <div class="FormInputs">
+                        <!-- колонна -->
+                        <div class="Maintxt">
+                            <div style="margin: 42px;"><input type="text" id="name"
+                                    placeholder="Name" required /><small
+                                    ></small></div>
+                            <div style="margin: 42px;"><input type="email" id="email"
+                                    placeholder="Email" required /><small
+                                    ></small></div>
+                        </div>
+                        <!-- колонна -->
+                        <div>
+                            <div style="margin: 42px;"><input class="form-control" id="subject"
+                                    placeholder="Subject" required></input><small
+                                    ></small></div>
+                        </div>
+                        <!-- колонна -->
+                        <div style="margin: 42px;">
+                            <div><input class="form-control" id="message"
+                                    placeholder="Message" required></input><small></small></div>
+                        </div>
+                        <!-- колонна -->
+                        <div>
+                            <button id="submitButton" type="submit">Submit</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+         <img src="Images/map.png"style="position:relative;left:13%;margin-top:3%;">
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+</html>
